@@ -1,0 +1,39 @@
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora p {
+    text-align: left;
+}
+  
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    padding: auto 0px auto 0px;
+    border-radius: 50px;
+    color: white;
+    margin: 0 auto;
+    vertical-align: center;
+}
+
+.vertical-align {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+  
+input {
+    padding: 7px;
+    width: 70%;
+    margin-top: 7px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+}

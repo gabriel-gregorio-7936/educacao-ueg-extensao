@@ -1,0 +1,41 @@
+.corpo-etapas {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.titulo-etapas {
+    margin: 1.5em;
+    text-align: center;
+}
+
+.etapa-esquerda {
+    display: flex;
+    flex: 1;
+    margin: 35px;
+    padding: 1em;
+    justify-content: start;
+    border: 10px solid #61BFB7;
+    border-radius: 1.5em;
+    box-shadow: 12px 12px 0 1px rgba(114, 73, 59, 2);
+}
+
+.etapa-direita {
+    display: flex;
+    flex: 1;
+    margin: 35px;
+    padding: 1em;
+    justify-content: end;
+    border: 10px solid #61BFB7;
+    border-radius: 1.5em;
+    box-shadow: -12px 12px 0 1px rgba(114, 73, 59, 2);
+}
+
+.img-etapas {
+    max-width: 10%;
+}
+
+.texto-etapas {
+    padding: 1.3em;
+}

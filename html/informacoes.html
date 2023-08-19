@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Informações</title>
+        <link rel="stylesheet" href="../public/css/stylesHome.css">
+        <link rel="stylesheet" href="../public/css/stylesInformacoes.css">
+        <link rel="stylesheet" href="../public/css/stylesInfoExtra.css">
+        <link rel="icon" type="image/x-icon" href="../public/images/favicon.ico">
+    </head>
+    <body id="informacoes">
+        <div class="header-banner">
+            <img class="mascotes" src="../public/images/heroimascote.jpg" alt="Porquinho mascote do projeto">
+            <div class="textos-projeto">
+                <p class="primeiro-titulo">EDUCAÇÃO FINANCEIRA</p>
+                <P class="legenda">Para Pessoas da Terceira Idade</P>
+            </div>
+            <img class="mascotes" src="../public/images/vilaomascote.jpg" alt="Cartão de crédito vilão do projeto">
+        </div>
+        <div class="container">
+            <nav class="entire-bar">
+                <a class="hover-underline-animation" data-active="home" href="index.html">Home</a>
+                <a class="hover-underline-animation" data-active="revista" href="revista.html">Revista</a>
+                <a class="hover-underline-animation" data-active="videos" href="video.html">Vídeos</a>
+                <a class="hover-underline-animation" data-active="professor" href="professor.html">Professor</a>
+                <a class="hover-underline-animation" data-active="informacoes" href="informacoes.html">Informações</a>
+                <a class="hover-underline-animation" data-active="futuro" href="futuro.html">Futuro</a>
+                <a class="hover-underline-animation" data-active="contato" href="contato.html">Contato</a>
+            </nav>
+        </div>
+
+        <div class="frame brasil">
+            <div class="frame-conj">
+                <iframe id="impostometro" src="https://impostometro.com.br/widget/contador/" width="590" height="191" scrolling="no" frameborder="0">
+                </iframe>
+                <p class="direita">
+                    Impostômetro mostrando a quantidade de imposto coletado no Brasil.<br/>
+                    Fonte: Associação Comercial de São Paulo
+                </p>
+            </div>
+        </div>
+
+        <div class="frame goias">
+            <div class="frame-conj">
+                <p class="esquerda">
+                    Impostômetro mostrando a quantidade de imposto coletado em Goiás.<br/>
+                    Fonte: Associação Comercial de São Paulo
+                </p>
+                <iframe id="impostometro" src="https://impostometro.com.br/widget/contador/go" width="590" height="191" scrolling="no" frameborder="0">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="frame anapolis">
+            <div class="frame-conj">
+                <iframe id="impostometro" src="https://impostometro.com.br/widget/contador/go?municipio=anapolis" width="590" height="191" scrolling="no" frameborder="0">
+                </iframe>
+                <p class="direita">
+                    Impostômetro mostrando a quantidade de imposto coletado em Anápolis.<br/>
+                    Fonte: Associação Comercial de São Paulo
+                </p>
+            </div>
+        </div>
+
+        <div class="glossario">
+            <h1>Glossário de Termos Financeiros</h1>
+            <p>Termo 1</p>
+            <p>Termo 2</p>
+            <p>Termo 3</p>
+            <p>Termo 4</p>
+            <p>Termo 5</p>
+            <p>Termo 6</p>
+            <p>Termo 7</p>
+            <p>Termo 8</p>
+            <p>Termo 9</p>
+        </div>
+
+        <div class="glossario">
+            <h1>Calculadora de Juros Compostos</h1>
+        </div>
+
+        <div class="calculadora">
+            <div class="calculator">
+                <div class="vertical-align">
+                    <h1>Loan Calculator</h1>
+          
+                    <!-- Calling Calculate function defined in app.js -->
+                    <p>Amount (₹)     :
+                        
+                    </p>
+                    <input id="amount" type="number" 
+                        onchange="Calculate()">
+            
+                    <p>Interest Rate  :
+                        
+                    </p>
+                    <input id="rate" type="number" 
+                        onchange="Calculate()">
+            
+                    <p>Months to Pay :
+                        
+                    </p>
+                    <input id="months" type="number" 
+                        onchange="Calculate()">
+            
+                    <h2 id="total"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-centralizado">
+            <div class="limiter">
+                <div class="secao-titulo">
+                    <div class="max-width conjunto">
+                        <img class="img-logo" src="../public/images/ProjectLogo.png" alt="Logo do projeto">
+                        <h1 class="tamanho-correto">Educação Financeira</h1>
+                    </div>
+                    <h1 class="max-width">Links</h1>
+                    <h1 class="max-width">Entre em Contato</h1>
+                    <h1 class="max-width membros">Membros e colaboradores</h1>
+                    <h1 class="max-width">Instituições de Ensino</h1>
+                </div>
+                
+                <div class="footer-body">
+                    <div class="secao primeiro">
+                        <p class="footer-descricao">
+                            O intuito do site é hospedar os conteúdos da revista 'Educação Financeira na Terceira Idade' e prover conteúdos
+                            extras que agreguem na vida do aluno.
+                        </p>
+                        <p class="footer-descricao">
+                            O site também possui uma área para o professor, onde pode-se encontrar 
+                            orientações de como conduzir uma aula ou apresentação do projeto.
+                        </p>
+                    </div>
+                    <div class="secao segundo">
+                        <a class="footer-link" href="index.html">Home</a>
+                        <a class="footer-link" href="revista.html">Revista</a>
+                        <a class="footer-link" href="video.html">Vídeos</a>
+                        <a class="footer-link" href="professor.html">Professor</a>
+                        <a class="footer-link" href="informacoes.html">Informações</a>
+                        <a class="footer-link" href="futuro.html">Futuro</a>
+                        <a class="footer-link" href="contato.html">Contato</a>
+                    </div>
+                    <div class="secao terceiro">
+                        <p>email: educacaoterceiraidade@email.com</p>
+                        <p>telefone: (62) 99547-9784</p>
+                        <p>Endereço físico: Fazenda Barreira do Meio</p>
+                    </div>
+                    <div class="secao quarto">
+                        <p class="menor">Líder do projeto: Elke Dias de Souza</p>
+                        <p class="menor">Aluno extensionista: Joãozinho</p>
+                        <p class="menor">Aluna extensionista: Mariazinha</p>
+                        <p class="menor">Aluno extensionista: Felipinho</p>
+                        <p class="menor">Aluna extensionista: Anazinha</p>
+                    </div>
+                    <div class="secao quinto">
+                        <p>Universidade Exemplo Qualquer</p>
+                        <p>Universidade Estadual de Goiás</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

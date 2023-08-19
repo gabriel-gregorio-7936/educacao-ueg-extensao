@@ -1,0 +1,44 @@
+.corpo-videos {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.corpo-recursos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.corpo-recursos p {
+    margin: 0 auto;
+}
+
+.corpo-recursos h1 {
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10em;
+}
+
+.titulo {
+    text-align: center;
+    margin: 50px auto;
+}

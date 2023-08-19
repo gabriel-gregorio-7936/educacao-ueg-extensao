@@ -1,0 +1,68 @@
+.importancia-professor {
+    width: 80%;
+    margin: 25px auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo-professora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.p-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.importancia-professor p {
+    padding: 0;
+    margin-right: 25px;
+}
+
+.professora-img {
+    max-width: 100%;
+}
+
+
+
+
+.roteiro-titulo {
+    background-color: #61BFB7;
+    color: #FFF;
+    font-family: 'Handlee', sans-serif;
+    width: 80%;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    margin: 60px auto;
+    padding: 0;
+    border-radius: 15px;
+}
+
+
+
+.roteiro {
+    margin: 35px auto;
+    width: 80%;
+}
+
+.roteiro p {
+    text-indent: 0em!important;
+    padding: 0 0 0 3.0em;
+}
+
+.roteiro-final {
+    width: 80%;
+    margin: 0 auto;
+}

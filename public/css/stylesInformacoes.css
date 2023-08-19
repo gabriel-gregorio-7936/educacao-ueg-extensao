@@ -1,0 +1,34 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    margin: 40px auto;
+}
+
+.goias {
+    align-items: end;
+}
+
+.frame-conj {
+    display: flex;
+    flex-direction: row;
+}
+
+.direita {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.esquerda {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.glossario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
